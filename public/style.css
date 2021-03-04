@@ -1,0 +1,29 @@
+/* this public folder is created with js-script */
+
+body {
+    background: rgb(216, 193, 150);
+    color: rgb(41, 41, 41);
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li {
+    list-style-type: none;
+    margin: 10px 20px;
+}
+nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+nav li a:hover {
+    color: rgb(120, 179, 3);
+    text-decoration: none;
+}
